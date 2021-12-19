@@ -1,17 +1,48 @@
 
+
 .home__bg{
     background-image: url(C:/Users/hp/Desktop/works/react_portfolio/react_portfolio/src/img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #010101;
+    /*background-color: #010101;*/
     background-position: 50%;
-    height: 100vh;     
+    height: 100vh;    
+    position: relative;
+    
 }
+.gradient{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80%;
+    
+    background-image: linear-gradient( transparent 50%,#191919 87%);
+}
+/*.gradient::before{
+    overflow: hidden;
+ 
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  border-radius: 25%;
+    bottom: 15%;
+    left: 0;
+    
+    box-shadow: 0px 200px 0 0 #191919;
+}*/
+
+
 
 li.nav__items{
     font-size: 18px;
     padding-bottom: 15px;
-    transition: 0.4s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+li.nav__items:hover{
+    transform: translateY(-5px);
+    color: #F9004D;
 }
 
 .home__content{
@@ -43,4 +74,16 @@ h4.home__text{
     font-family: Montserrat, sans-serif;
     font-weight: 800;
     line-height: 40px;
+}
+.header{
+    transition: .4s all ease;
+    
+}
+
+ .header.active{
+    display: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding:0 30px;
+    background-color: #191919;
 }

@@ -3,8 +3,13 @@ import './About.css';
 import aboutImg from '../img/about.jpg';
 
 function About() {
+    //up to top btn code
+    window.addEventListener("scroll",function(){
+        const upToTop = this.document.querySelector("a.bottom__to__top");
+        upToTop.classList.toggle("active",window.scrollY>0)
+    })
     return (
-        <div className='about component__space'>
+        <div className='about component__space' id='About'>
             <div className='container'>
                 <div className='row'>
                     <div className='col__2'>
@@ -33,6 +38,11 @@ function About() {
                     </div>
                 </div>
             </div>
+            {/**Up TO TUP BTN */}
+            <div className='up__to__top__btn'>
+                <a href='Home' className='bottom__to__top'>Up</a>
+            </div>
+            
         </div>
     )
 }
