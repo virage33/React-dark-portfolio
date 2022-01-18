@@ -38,17 +38,17 @@ function Home() {
                             </h1>
                             <h2 className='home__text pz__10'>
                               
-                                    Hi, I'm John Doe
+                                    Hi, I'm Suleiman Sani
                                    
                             </h2>
                             <h3 className='home__text sweet pz__10'>
                                 
-                                Js Developer
+                                Fullstack Engineer 
                                 <Typist.Delay ms={500} />
                             </h3>
-                            <h4 className='home__text pz__10'>
-                                based in the USA.
-                            </h4>
+                            {/* <h4 className='home__text pz__10'>
+                                based in Nigeria.
+                            </h4> */}
                             </Typist>
                         </div>
                     </div>

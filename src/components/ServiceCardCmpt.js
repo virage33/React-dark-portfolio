@@ -1,7 +1,7 @@
 function ServiceCardCmpt(props){
 
     return (
-        <div className="col__3">
+        <div onClick={props.customClickEvent} className="col__3">
             <div className="service__box pointer">
               <div className="icon">
                 {props.icon}

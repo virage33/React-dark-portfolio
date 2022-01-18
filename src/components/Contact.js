@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import contactImg from "../img/about-9.jpg";
+import contactImg from "../img/abuja.jpg";
 
 function Contact() {
     return (
@@ -9,8 +9,8 @@ function Contact() {
                 <div className='col__2'>
                     <div className='contact__box'>
                         <div className='contact__meta'>
-                            <h1 className='hire__text'>Hire Me</h1>
-                            <p className='hire__text white'>I am available for freelance work. Connect with me via phone:</p>
+                            <h1 className='hire__text'>Contact Me</h1>
+                            <p className='hire__text white'>Feel free to get in touch. Connect with me via phone:</p>
                             <p className='hire__text white'><strong>+234 8102627768</strong> or email <strong>suleiman.sani1@gmail.com</strong></p>    
                         </div>
                         <div className='input__box'>
@@ -24,7 +24,7 @@ function Contact() {
                 </div>
 
                 <div className='col__2'>
-                    <img src={contactImg} alt="" className="contact__img"/>
+                    <img src={contactImg} alt="location map" className="contact__img"/>
                     
                 </div>
 

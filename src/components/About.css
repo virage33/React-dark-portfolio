@@ -5,7 +5,9 @@
 img.about__img{
     border-radius: 10px;
     width: 100%;
+    background-color: #292929;
 }
+
 h1.about__heading{
     margin-bottom: 10px;
     font-weight: 700;
